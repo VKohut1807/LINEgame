@@ -24,14 +24,14 @@ window.onload = function () {
         for (let i = 0; i < lines.length; i++) {
             for (let j = 0; j < lines[i].length; j++) {
                 if (lines[i][j] == 0) {
-                    out += '<div class="white"></div>';
+                    out += '<div class="grey"></div>';
                 }
                 else if (lines[i][j] == 1 || lines[i][j] == 11) {
-                    out += '<div class="violet"></div>';
+                    out += '<div class="red"></div>';
                 } else if (lines[i][j] == 2 || lines[i][j] == 12) {
-                    out += '<div class="yellow"></div>';
+                    out += '<div class="orange"></div>';
                 } else if (lines[i][j] == 3 || lines[i][j] == 13) {
-                    out += '<div class="black"></div>';
+                    out += '<div class="sea"></div>';
                 } else if (lines[i][j] == 4 || lines[i][j] == 14) {
                     out += '<div class="blue"></div>';
                 } else if (lines[i][j] == 5 || lines[i][j] == 15) {

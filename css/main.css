@@ -42,28 +42,28 @@ body {
 .container main .block:first-child #lines-field {
   width: 325px;
 }
-.container main .block:first-child #lines-field .white {
+.container main .block:first-child #lines-field .grey {
   width: 23px;
   height: 23px;
   float: left;
   border-radius: 1em;
   border: 1px solid #878F9C;
 }
-.container main .block:first-child #lines-field .violet {
+.container main .block:first-child #lines-field .red {
   width: 25px;
   height: 25px;
   border-radius: 100%;
   float: left;
   background: #CB0512;
 }
-.container main .block:first-child #lines-field .yellow {
+.container main .block:first-child #lines-field .orange {
   width: 25px;
   height: 25px;
   border-radius: 100%;
   float: left;
   background: #FEAC25;
 }
-.container main .block:first-child #lines-field .black {
+.container main .block:first-child #lines-field .sea {
   width: 25px;
   height: 25px;
   border-radius: 100%;
@@ -91,13 +91,13 @@ body {
   flex-direction: column;
 }
 .container main .text-field .run {
-  border-radius: 1em;
   height: 5em;
   background-image: url(../img/logo.png);
   background-repeat: no-repeat;
   background-position: 95% 100%;
   background-size: contain;
   cursor: pointer;
+  border-radius: 1em;
 }
 .container main .text-field .run:hover {
   background-color: greenyellow;

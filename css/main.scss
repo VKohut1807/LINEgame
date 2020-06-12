@@ -38,7 +38,7 @@ body {
             #lines-field {
                 width: 325px;
 
-                .white {
+                .grey {
                     width: 23px;
                     height: 23px;
                     float: left;
@@ -46,7 +46,7 @@ body {
                     border: 1px solid #878F9C;
                 }
         
-                .violet {
+                .red {
                     width: 25px;
                     height: 25px;
                     border-radius: 100%;
@@ -54,7 +54,7 @@ body {
                     background: #CB0512;
                 }
         
-                .yellow {
+                .orange {
                     width: 25px;
                     height: 25px;
                     border-radius: 100%;
@@ -62,7 +62,7 @@ body {
                     background: #FEAC25;
                 }
         
-                .black {
+                .sea {
                     width: 25px;
                     height: 25px;
                     border-radius: 100%;
@@ -95,13 +95,13 @@ body {
             flex-direction: column;
         
             .run {
-                border-radius: 1em;
                 height: 5em;
                 background-image: url(../img/logo.png);
                 background-repeat: no-repeat;
                 background-position: 95% 100%;
                 background-size: contain;
                 cursor: pointer;
+                border-radius: 1em;
             }
 
             .run:hover {
