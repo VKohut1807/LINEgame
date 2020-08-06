@@ -1,5 +1,5 @@
 "use strict"
-window.onload = function () {
+document.getElementById('run').addEventListener('click', function() {
     let lines = [];
     let linesField = document.querySelector('#lines-field');
     let scoreField = document.querySelector('#score');
@@ -184,7 +184,6 @@ window.onload = function () {
             }
         }
     }
-//k perebor wert riadka
     function finish() {
         let stop = false;
         for (let i = lines.length - 1; i >= 0; i--) {
@@ -206,10 +205,17 @@ window.onload = function () {
         }
         return stop;
     }
-    document.querySelector('#run').onclick = function(){
-        init();
-        run();
+
+    init();
+    run();
+    
+    document.getElementById('run').innerHTML = 'Вимкнути';
+    let restartWindow = function () {
+        document.getElementById('run').onclick = function () {
+                location.href=location.href;
+        }
     }
+    restartWindow();
     document.onkeydown = function (event) {
         switch (event.code) {
             case "ArrowRight":
@@ -227,4 +233,4 @@ window.onload = function () {
         }
         return false;
     }
-}
+});
